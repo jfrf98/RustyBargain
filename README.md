@@ -1,51 +1,58 @@
-# 🚗 Taxi Demand Forecasting – Sweet Lift
+# 🚗 Rusty Bargain – Used Car Price Prediction
 
 ## The Business Problem
 
-Sweet Lift Taxi needed a way to predict how many taxi orders would be requested in the next hour.
+Rusty Bargain is a used-car marketplace that wants users to instantly estimate the market value of their vehicle.
 
-Why?  
-To better allocate drivers during peak hours and reduce passenger wait time.
+To achieve this, the company needs a reliable pricing model based on historical car listings and technical specifications.
 
 ---
 
-## My Role
+## My Contribution
 
-I built a predictive model using historical airport taxi order data to forecast hourly demand.
+I built and compared multiple predictive models to estimate used car prices, focusing on three key factors:
+
+- Accuracy (How close predictions are to real prices)
+- Training time (How long the model takes to learn)
+- Prediction speed (How fast it can return results in an app)
 
 ---
 
 ## What I Did
 
-- Cleaned and organized historical time-based data  
-- Analyzed demand trends and peak patterns  
-- Engineered time-based features (hour, day, previous demand)  
-- Trained and compared multiple machine learning models  
-- Evaluated performance using RMSE  
-
----
-
-## Results
-
-✔ Successfully built a forecasting model that met the business requirement:
-
-> RMSE ≤ 48 on the test dataset  
-
-This demonstrates the ability to turn raw historical data into actionable demand predictions.
+- Cleaned and validated real-world marketplace data
+- Removed unrealistic values and outliers
+- Tested different machine learning models
+- Compared model accuracy and computational efficiency
+- Selected the best-performing solution
 
 ---
 
 ## Tools Used
 
-Python | Pandas | Scikit-learn | Time Series Analysis
+Python | Scikit-learn | LightGBM | Pandas | NumPy
+
+---
+
+## Results
+
+- Tree-based models significantly improved pricing accuracy.
+- LightGBM achieved the best balance between prediction quality and speed.
+- The final model delivers reliable price estimates suitable for real-time application use.
+
+(RMSE represents the average difference between predicted and real car prices — lower is better.)
 
 ---
 
 ## Why This Project Matters
 
-This project shows my ability to:
+This project demonstrates my ability to:
 
-- Translate business problems into analytical solutions  
-- Work with time-based data  
-- Evaluate model performance under defined constraints  
-- Deliver measurable results
+- Translate a business problem into a predictive solution
+- Work with messy real-world data
+- Compare models strategically (not just technically)
+- Balance accuracy with performance constraints
+- Deliver solutions suitable for production environments
+
+---
+
