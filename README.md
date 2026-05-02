@@ -23,10 +23,10 @@ I built and compared multiple predictive models to estimate used car prices, foc
 - Built a full ML pipeline (avoiding data leakage)
 - Applied preprocessing (scaling + encoding)
 - Compared multiple models:
- - Linear Regression (baseline)
- - Decision Tree
- - Random Forest
- - LightGBM
+    - Linear Regression (baseline)
+    - Decision Tree
+    - Random Forest
+    - LightGBM
 
 ---
 
