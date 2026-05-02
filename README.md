@@ -20,25 +20,27 @@ I built and compared multiple predictive models to estimate used car prices, foc
 
 ## What I Did
 
-- Cleaned and validated real-world marketplace data
-- Removed unrealistic values and outliers
-- Tested different machine learning models
-- Compared model accuracy and computational efficiency
-- Selected the best-performing solution
+- Built a full ML pipeline (avoiding data leakage)
+- Applied preprocessing (scaling + encoding)
+- Compared multiple models:
+ - Linear Regression (baseline)
+ - Decision Tree
+ - Random Forest
+ - LightGBM
 
 ---
 
 ## Tools Used
 
-Python | Scikit-learn | LightGBM | Pandas | NumPy
+Python | Scikit-learn | LightGBM | Pandas | NumPy | Matplotlib | Seaborn
 
 ---
 
 ## Results
 
-- Tree-based models significantly improved pricing accuracy.
-- LightGBM achieved the best balance between prediction quality and speed.
-- The final model delivers reliable price estimates suitable for real-time application use.
+- Linear Regression struggled → RMSE ≈ 3200
+- Random Forest achieved the best accuracy → RMSE ≈ 1750 and training time ≈ 8 minutes
+- LightGBM delivered similar performance with drastically lower training time (~1–2 seconds)
 
 (RMSE represents the average difference between predicted and real car prices — lower is better.)
 
